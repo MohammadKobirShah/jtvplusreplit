@@ -1,28 +1,19 @@
-# SOCKS5 Proxy for Replit
+# SOCKS5 Proxy for Replit (Clean Version)
 
-Proxy m3u8 streams through SOCKS5 and host it on Replit.
+✅ No `.replit` or `replit.nix` needed. Just upload and run.
 
-## 🧦 Proxy Info
-```
-server: 103.159.218.218
-port: 1920
-user: test
-pass: test
-```
-
-## 🚀 How to Use on Replit
-
+## Deploy Steps:
 1. Go to [https://replit.com/new](https://replit.com/new)
-2. Choose "Import from GitHub" or "Upload ZIP"
-3. Replit auto-runs your Node app
+2. Upload this ZIP
+3. Replit auto-installs + runs it
 
-### Or manual:
-```bash
+Or in Shell:
+```
 npm install
 node index.js
 ```
 
-🧪 Access it like:
+Access it:
 ```
 https://your-repl-name.username.repl.co/sonicbangla/master.m3u8
 ```
